@@ -72,9 +72,9 @@ echo "the pae value indicated the fuzz factor required to achieve zero differenc
 echo "now lets compare the default.jpg with bad.jpg"
 echo
 
-cmp "(good) jpg with (bad) jpg (pae, no fuzz)" pae default.jpg bad.jpg "" jpg--bad-jpg--mepp.png
+cmp "(good) jpg with (bad) jpg (pae, no fuzz)" pae default.jpg bad.jpg "" jpg--bad-jpg--pae.png
 
-cmp "(good) jpg with (bad) jpg (ae, no fuzz)" ae default.jpg bad.jpg "" jpg--bad-jpg--pae.png
+cmp "(good) jpg with (bad) jpg (ae, no fuzz)" ae default.jpg bad.jpg "" jpg--bad-jpg--ae.png
 
 echo
 echo "the pae value here is 1 (100% different)"
